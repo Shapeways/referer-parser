@@ -12,9 +12,9 @@ class Parser
     /**
      * @var string[]
      */
-    private $internalHosts = [];
+    private $internalHosts = array();
 
-    public function __construct(ConfigReaderInterface $configReader = null, array $internalHosts = [])
+    public function __construct(ConfigReaderInterface $configReader = null, array $internalHosts = array())
     {
         $this->configReader = $configReader ?: static::createDefaultConfigReader();
         $this->internalHosts = $internalHosts;
@@ -66,11 +66,11 @@ class Parser
         }
 
         $parts = parse_url($url);
-        if (!isset($parts['scheme']) || !in_array(strtolower($parts['scheme']), ['http', 'https'])) {
+        if (!isset($parts['scheme']) || !in_array(strtolower($parts['scheme']), array('http', 'https'))) {
             return null;
         }
 
-        return array_merge(['query' => null, 'path' => '/'], $parts);
+        return array_merge(array('query' => null, 'path' => '/'), $parts);
     }
 
     private function lookup($host, $path)

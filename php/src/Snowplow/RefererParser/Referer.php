@@ -58,7 +58,7 @@ class Referer
     /** @return boolean */
     public function isKnown()
     {
-        return !in_array($this->medium, [Medium::UNKNOWN, Medium::INTERNAL, Medium::INVALID], true);
+        return !in_array($this->medium, array(Medium::UNKNOWN, Medium::INTERNAL, Medium::INVALID), true);
     }
 
     /** @return string */
