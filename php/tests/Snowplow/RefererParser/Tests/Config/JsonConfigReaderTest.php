@@ -1,7 +1,7 @@
 <?php
-namespace Snowplow\RefererParser\Tests\Config;
+namespace Shapeways\RefererParser\Tests\Config;
 
-use Snowplow\RefererParser\Config\JsonConfigReader;
+use Shapeways\RefererParser\Config\JsonConfigReader;
 
 class JsonConfigReaderTest extends AbstractConfigReaderTest
 {

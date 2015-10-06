@@ -1,9 +1,9 @@
 <?php
-namespace Snowplow\RefererParser\Tests;
+namespace Shapeways\RefererParser\Tests;
 
 use PHPUnit_Framework_TestCase as TestCase;
-use Snowplow\RefererParser\Medium;
-use Snowplow\RefererParser\Parser;
+use Shapeways\RefererParser\Medium;
+use Shapeways\RefererParser\Parser;
 
 abstract class AbstractParserTest extends TestCase
 {

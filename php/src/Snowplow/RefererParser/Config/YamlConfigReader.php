@@ -1,5 +1,5 @@
 <?php
-namespace Snowplow\RefererParser\Config;
+namespace Shapeways\RefererParser\Config;
 
 use Symfony\Component\Yaml\Yaml;
 

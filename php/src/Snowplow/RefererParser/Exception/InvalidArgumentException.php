@@ -1,5 +1,5 @@
 <?php
-namespace Snowplow\RefererParser\Exception;
+namespace Shapeways\RefererParser\Exception;
 
 use InvalidArgumentException as BaseInvalidArgumentException;
 

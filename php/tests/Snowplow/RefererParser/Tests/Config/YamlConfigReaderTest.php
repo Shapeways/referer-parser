@@ -1,7 +1,7 @@
 <?php
-namespace Snowplow\RefererParser\Tests\Config;
+namespace Shapeways\RefererParser\Tests\Config;
 
-use Snowplow\RefererParser\Config\YamlConfigReader;
+use Shapeways\RefererParser\Config\YamlConfigReader;
 
 class YamlConfigReaderTest extends AbstractConfigReaderTest
 {

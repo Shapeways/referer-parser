@@ -1,8 +1,8 @@
 <?php
-namespace Snowplow\RefererParser\Tests;
+namespace Shapeways\RefererParser\Tests;
 
-use Snowplow\RefererParser\Config\JsonConfigReader;
-use Snowplow\RefererParser\Parser;
+use Shapeways\RefererParser\Config\JsonConfigReader;
+use Shapeways\RefererParser\Parser;
 
 class JsonParserTest extends AbstractParserTest
 {

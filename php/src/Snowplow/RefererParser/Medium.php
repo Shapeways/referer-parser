@@ -1,5 +1,5 @@
 <?php
-namespace Snowplow\RefererParser;
+namespace Shapeways\RefererParser;
 
 final class Medium
 {

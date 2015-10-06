@@ -1,8 +1,8 @@
 <?php
-namespace Snowplow\RefererParser\Tests\Config;
+namespace Shapeways\RefererParser\Tests\Config;
 
 use PHPUnit_Framework_TestCase as TestCase;
-use Snowplow\RefererParser\Config\ConfigReaderInterface;
+use Shapeways\RefererParser\Config\ConfigReaderInterface;
 
 abstract class AbstractConfigReaderTest extends TestCase
 {
@@ -12,7 +12,7 @@ abstract class AbstractConfigReaderTest extends TestCase
     public function testExceptionIsThrownIfFileDoesNotExist()
     {
         $this->setExpectedException(
-            'Snowplow\RefererParser\Exception\InvalidArgumentException',
+            'Shapeways\RefererParser\Exception\InvalidArgumentException',
             'File "INVALIDFILE" does not exist'
         );
         $this->createConfigReader('INVALIDFILE');

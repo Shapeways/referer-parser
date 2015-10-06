@@ -1,7 +1,7 @@
 <?php
-namespace Snowplow\RefererParser\Tests;
+namespace Shapeways\RefererParser\Tests;
 
-use Snowplow\RefererParser\Parser;
+use Shapeways\RefererParser\Parser;
 
 class DefaultParserTest extends AbstractParserTest
 {
