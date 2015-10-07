@@ -10,7 +10,7 @@ class Parser
     private $configReader;
 
     /**
-     * @var string array
+     * @var string[]
      */
     private $internalHosts = array();
 
