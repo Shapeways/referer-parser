@@ -300,9 +300,11 @@ The node.js (JavaScript) port is copyright 2013-2014 [Martin Katrenik] [mkatreni
 
 The .NET (C#) port is copyright 2013-2014 [iPerform Software] [iperform] and is available under the [Apache License, Version 2.0] [apache-license].
 
-The PHP port is copyright 2013-2014 [Lars Strojny] [tsileo] and is available under the [MIT License] [mit-license].
+The PHP port is copyright 2013-2014 [Lars Strojny] [lstrojny] and is available under the [MIT License] [mit-license].
 
-The Go port is copyright 2014 [Thomas Sileo] [lstrojny] and is available under the [MIT License] [mit-license].
+THE PHP5.3 port is copyright 2015 [Yuehlin Chung] [yuehlin] and is available under the [MIT License] [mit-license].
+
+The Go port is copyright 2014 [Thomas Sileo] [tsileo] and is available under the [MIT License] [mit-license].
 
 [ua-parser]: https://github.com/tobie/ua-parser
 
