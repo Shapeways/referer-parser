@@ -12,20 +12,20 @@ abstract class AbstractParserTest extends TestCase
 
     public function setUp()
     {
-        $this->parser = $this->createParser(['www.subdomain1.snowplowanalytics.com', 'www.subdomain2.snowplowanalytics.com']);
+        $this->parser = $this->createParser(array('www.subdomain1.snowplowanalytics.com', 'www.subdomain2.snowplowanalytics.com'));
     }
 
     /**
      * @param string[] $internalHosts
      * @return Parser
      */
-    abstract protected function createParser(array $internalHosts = []);
+    abstract protected function createParser(array $internalHosts = array());
 
     public static function getTestData()
     {
         $data = json_decode(file_get_contents(__DIR__ . '/referer-tests.json'), true);
 
-        $arguments = [];
+        $arguments = array();
         foreach ($data as $case) {
             $arguments[] = array_values($case);
         }
@@ -47,11 +47,11 @@ abstract class AbstractParserTest extends TestCase
 
     public static function getErrorData()
     {
-        return [
-            ['ftp://google.com', null],
-            [null, null],
-            ['invalidString', 'http://google.de'],
-        ];
+        return array(
+          array('ftp://google.com', null),
+          array(null, null),
+          array('invalidString', 'http://google.de'),
+        );
     }
 
     /** @dataProvider getErrordata */
@@ -64,7 +64,7 @@ abstract class AbstractParserTest extends TestCase
 
     public function testCustomInternalHosts()
     {
-        $parser = $this->createParser(['google.com']);
+        $parser = $this->createParser(array('google.com'));
 
         $this->assertSame(Medium::INTERNAL, $parser->parse('http://google.com')->getMedium());
         $this->assertSame(Medium::SEARCH, $this->parser->parse('http://google.com')->getMedium());
