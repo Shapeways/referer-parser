@@ -315,6 +315,7 @@ The Go port is copyright 2014 [Thomas Sileo] [lstrojny] and is available under t
 [lstrojny]: https://github.com/lstrojny
 [tsileo]: https://github.com/tsileo
 [kreynolds]: https://github.com/kreynolds
+[yuehlin]: https://github.com/yuehlin
 
 [piwik]: http://piwik.org
 [piwik-search-engines]: https://github.com/piwik/piwik/blob/master/core/DataFiles/SearchEngines.php
