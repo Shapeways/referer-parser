@@ -16,6 +16,7 @@ _Note that we always use the original HTTP misspelling of 'referer' (and thus 'r
 * node.js (JavaScript): [Martin Katrenik] [mkatrenik]
 * .NET (C#): [Sepp Wijnands] [swijnands] at [iPerform Software] [iperform]
 * PHP: [Lars Strojny] [lstrojny]
+* PHP5.3: [Yuehlin Chung] [yuehlin] at Shapeways, Inc
 * Go: [Thomas Sileo] [tsileo]
 * `referers.yml`: [Snowplow Analytics] [snowplow-analytics]
 
